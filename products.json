@@ -1,0 +1,29 @@
+[
+  {
+    "name": "subg",
+    "image": "http",
+    "price": 10,
+    "featured": true,
+    "company": "vivek",
+    "description": "op",
+    "category": "food"
+  },{
+    "name": "subghrh",
+    "image": "httpywy",
+    "price": 13,
+    "featured": false,
+    "company": "subodh",
+    "description": "nice",
+    "category": "food fav"
+      
+    },{
+    "name": "subghrh",
+    "image": "httpywy",
+    "price": 13,
+    "featured": true,
+    "company": "subodh",
+    "description": "nice",
+    "category": "food fav"
+      
+    }
+  ]
