@@ -14,6 +14,9 @@ const productSchema = new mongoose.Schema({
           type:Number,
           
         },
+        amount: {
+          type:Number,
+        },
         
         items: {
           type:Array,

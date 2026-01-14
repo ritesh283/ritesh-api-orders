@@ -41,6 +41,16 @@ const postProducts = async (req,res) => {
     res.status(500).json({message :error.message});
   }
 };
+//findById
+const FindByIdProducts = async (req, res) => {
+  const {id} = req.params;
+  const myData = await Product.findById(id);
+  if (!myData){
+      return res.status(404).json({message: "product not found"});
+    }
+  res.status(200).json(myData);
+};
+//end
 
 //deleteProducts
 
@@ -81,4 +91,4 @@ const putProducts = async (req,res) => {
 
 //put 
 
-module.exports = {getAllProducts, getAllProductsTesting, postProducts, deleteProducts, putProducts};
+module.exports = {getAllProducts, getAllProductsTesting, postProducts, deleteProducts, putProducts, FindByIdProducts};
