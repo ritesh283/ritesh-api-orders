@@ -39,7 +39,7 @@ const productSchema = new mongoose.Schema({
           type:String,
           
         },
-        code:{
+        orderid:{
           type:String,
         },
         details: {
