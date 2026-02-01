@@ -42,6 +42,11 @@ const productSchema = new mongoose.Schema({
         orderid:{
           type:String,
         },
+        orderstatus: {
+          type:String,
+          default:"Order Proccessing"
+          
+        },
         details: {
           type:String,
           
