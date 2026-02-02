@@ -44,7 +44,7 @@ const productSchema = new mongoose.Schema({
         },
         orderstatus: {
           type:String,
-          default:"Order Proccessing"
+          default:"Order Processing"
           
         },
         details: {
